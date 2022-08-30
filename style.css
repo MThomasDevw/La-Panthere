@@ -572,8 +572,9 @@ a[data-lightbox]:hover img {
 }
 
 #lightbox-modal .modal-dialog img {
-    max-height: 90vh;
+    max-height: 80vh;
     margin: 0 auto;
+    width: 40em;
 }
 
 .lightbox-caption {
@@ -755,7 +756,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #3333338a;
     padding: 40px 40px 40px 40px;
 }
 
@@ -773,7 +774,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #CD4B0E;
 }
 
 .tc-white {
@@ -781,7 +782,7 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #CD4B0E!important;
     color: #FFFFFF!important;
 }
 
