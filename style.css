@@ -702,7 +702,7 @@ p {
 
 .social {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     max-width: 400px;
     margin: auto auto auto auto;
 }
@@ -1041,5 +1041,8 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .social {
+        justify-content: space-between;
     }
 }
