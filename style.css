@@ -702,7 +702,7 @@ p {
 
 .social {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     max-width: 400px;
     margin: auto auto auto auto;
 }
@@ -821,11 +821,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/Aide.png");
+    background-image: url("img/Aide.webp");
 }
 
 @media (max-width: 1024px) {
@@ -1041,5 +1041,8 @@ h4 {
 @media (max-width: 767px) {
     .bloc-mob-center-text {
         text-align: center;
+    }
+    .social {
+        justify-content: space-between;
     }
 }
